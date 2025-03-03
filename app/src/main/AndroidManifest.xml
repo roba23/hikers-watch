@@ -16,9 +16,11 @@
         android:theme="@style/Theme.HikersWatch"
         tools:targetApi="31">
         <!-- Google API Key -->
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAyHYPRw3FnTX8hXqDY8yHuvhn1YEl0suE"/>
+            android:value="@string/google_maps_api_key"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
